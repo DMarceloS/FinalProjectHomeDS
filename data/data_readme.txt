@@ -6,4 +6,4 @@ Chelonioidea_Superfamily.tre
 
 2) Fna file (rna) obtained from NCBI to be filter out using Regular Expressions and define the transcript number. 
 
-BRCA1_rna.fna
+BRCA1_rna_sep.fna

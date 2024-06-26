@@ -3,7 +3,7 @@
 This is a project that aims to use Bioinformatic tools and course material to build up a Phylogeny and to filter out data, all this considering the *Chelonia mydas* species of Sea Turtles as organism of interest.
 
 The *Chelonia mydas* also known as the green sea turtle is the largest hard-shelled sea turtle. Their diet consists of mostly seagrass and algae, which makes their fat greenish, feature that gave them thei name. 
-Green turtles are found in the coastal areas of more than 140 countries where trafficking trade, recreational fishing gear, loss of nesting habitat from coastal development, and climate change are their biggest threats. However, the world has taken conscious over their endangerment and developed measures to protect this majestic creature. 
+Green turtles are found in the coastal areas of more than 140 countries where trafficking trade, recreational fishing, loss of nesting habitat from coastal development, and climate change are their biggest threats. However, the world has become conscious over their endangerment and developed measures to protect this majestic creature. 
 
 
 ![this is picture of a Sea turtle!](https://th.bing.com/th/id/R.90f240fd0f6ea009f80950950ead5b2e?rik=7qXIVlc1MiFbjA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2f1%2ff%2f390894.jpg&ehk=Pe6KLXtfj1P%2bjWQVxXgckqccKh6SC18iGKWgvEBT6s8%3d&risl=&pid=ImgRaw&r=0) 

@@ -1,0 +1,93 @@
+---
+title: "Chelonia mydas Phylogeny"
+output: html_document
+date: "2024-06-26"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+**FINDING Chelonia mydas TURTLE**
+
+
+Set working directory
+```{r}
+setwd("/cloud/project/FinalprojectBIOINF")
+```
+
+Get Working directory
+
+```{r}
+getwd()
+```
+Install packages to be used 
+
+```{r}
+install.packages("ggtree")
+install.packages("ape")
+install.packages('coda')
+install.packages('phytools')
+install.packages('BAMMtools')
+install.packages("maps")
+if (!require("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+
+BiocManager::install("ggtree")
+```
+
+Check installed packages 
+```{r}
+library(ape)
+library(ggtree)
+library(coda)
+library(phytools)
+library(BAMMtools)
+library(maps)
+```
+
+Open Chelonioidea Superfamily tree
+
+```{r}
+tree <- read.tree("Chelonioidea_Superfamily.tre")
+write.tree(tree, file = "Chelonioidea_Superfamily.tre")
+plot(tree, main = "Chelonioidea Superfamily")
+```
+
+Zoom in to get the 	"Chelonioidea" tiplabels highlighted
+
+```{r}
+zoom(tree, grep("Chelonioidea", tree$tip.label), cex = 0.5)
+```
+
+Find Node ancestor 
+```{r}
+MRCA <- getMRCA(tree, tip = c("Chelonia_mydas_agassizi_ott346990", "Chelonia_gwinneri_ott6155867"))
+MRCA
+```
+Extract node of interest for Chelonia mydas 
+
+```{r}
+treenode <- extract.clade(tree, node = 42)
+plot(treenode, cex = 0.8)
+```
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

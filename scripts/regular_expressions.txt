@@ -1,0 +1,11 @@
+Regular Expressions 
+
+The file BRCA1_rna.fna was edited used Sublime with the following regular expression:
+
+
+Find: ^>X\w+.\w\s\w+\s\[\w+=\w+\s\w+]\s\[\w+=\d+]\s\[\w+=
+
+Replace: >Transcript [
+
+
+This to filter out the titles of each RNA transcript of the BRCA1 (DNA repair associated) gene for the Chelonia mydas, Turtle. 

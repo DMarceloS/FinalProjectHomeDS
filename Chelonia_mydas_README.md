@@ -30,12 +30,12 @@ Green turtles are found in the coastal areas of more than 140 countries where tr
 
 **1)** Download a data base file from the **Open Tree of Life** website containing the sequences to construct a Phylogeny using R-studio and zooming in the *Chelonia mydas* branch contained in the Chelonioidea Super family. 
 
-![](results/Chelonioideasuperfamily.png?raw=true "Chelonioidea Superfamily")
+![Chelonioidea Superfamily](results/Chelonioideasuperfamily.png?raw=true)
 
 
-![](results/labeltips.png?raw=true "Label tips for Chelonioidea Superfamily")
+![Label tips for Chelonioidea Superfamily](results/labeltips.png?raw=true)
 
-![](results/Cheloniamydas.png?raw=true "Chelonia mydas zoom in")
+![Chelonia mydas zoom in](results/Cheloniamydas.png?raw=true)
 
 
 
@@ -43,7 +43,7 @@ Green turtles are found in the coastal areas of more than 140 countries where tr
 **2)** Using the same file to build a Phylogeny in Figtree.
 
 
-![](results/Figtree.png?raw=true "Figtree phylogeny tree")
+![Figtree phylogeny tree](results/Figtree.png?raw=true)
 
 
 **[B]** It was also possible to filter out data from RNA sequence of BRCA1 gen, using the following:
@@ -52,7 +52,7 @@ Green turtles are found in the coastal areas of more than 140 countries where tr
 
 **2)** Regular expressions on Sublime to filter out unwanted text and denote the transcript section for the BRCA1 gene, which performs a DNA repair associated function in turtles.  
 
-![](results/Regularexpression.png?raw=true "Regular expression applied")
+![Regular expression applied](results/Regularexpression.png?raw=true)
 
 
 ***Author***

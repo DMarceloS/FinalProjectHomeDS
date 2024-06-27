@@ -6,29 +6,77 @@ The *Chelonia mydas* also known as the green sea turtle is the largest hard-shel
 Green turtles are found in the coastal areas of more than 140 countries where trafficking trade, recreational fishing, loss of nesting habitat from coastal development, and climate change are their biggest threats. However, the world has become conscious over their endangerment and developed measures to protect this majestic creature. 
 
 
-![this is picture of a Sea turtle!](https://th.bing.com/th/id/R.90f240fd0f6ea009f80950950ead5b2e?rik=7qXIVlc1MiFbjA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2f1%2ff%2f390894.jpg&ehk=Pe6KLXtfj1P%2bjWQVxXgckqccKh6SC18iGKWgvEBT6s8%3d&risl=&pid=ImgRaw&r=0) 
+![](https://th.bing.com/th/id/R.90f240fd0f6ea009f80950950ead5b2e?rik=7qXIVlc1MiFbjA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2f1%2ff%2f390894.jpg&ehk=Pe6KLXtfj1P%2bjWQVxXgckqccKh6SC18iGKWgvEBT6s8%3d&risl=&pid=ImgRaw&r=0) 
+[1] Sea Turtles and tourists 
+
+
+![](https://www.fisheries.noaa.gov/s3//2023-06/DPS-Webmap.jpg) 
+[2] Sea Turtles global distribution
 
 
 
-#### Here a video of Sea turtles.
-[![ ](https://img.youtube.com/vi/spxtEt6RaS4/0.jpg)] (https://www.youtube.com/watch?v=spxtEt6RaS4) 
-
-[A] In this project it was possible to obtain a Phylogeny using both R-studio and Figtree, for this the following was carried out: 
+[![ ](https://img.youtube.com/vi/spxtEt6RaS4/0.jpg)]
 
 
-1) Downloading a data base file from **Open Tree of Life** containing the sequences to construct a Phylogeny using R-studio and zooming in the *Chelonia mydas* branch contained in the Chelonioidea Super family. 
-1) Using the same file to build a Phylogeny in Figtree.
+(https://www.youtube.com/watch?v=spxtEt6RaS4) 
 
 
-[B] It was also possible to filter out data from RNA sequence of BRCA1 gen, using the following:
+[3] Sea turtles documental.
 
-1) A fna file downloaded from **NCBI** 
-1) Regular expressions on Sublime to filter out unwanted text and denote the transcript section for the BRCA1 gene, which performs a DNA repair associated function in turtles.  
 
-Resources origin: 
+
+**[A]** In this project it was possible to zoom in on a Phylogeny for the species of interest as well as to  edit a Phylogeny using Figtree, for this the following was carried out: 
+
+
+**1)** Download a data base file from the **Open Tree of Life** website containing the sequences to construct a Phylogeny using R-studio and zooming in the *Chelonia mydas* branch contained in the Chelonioidea Super family. 
+
+![Chelonioidea Superfamily](/c/Users/dms11/Desktop/FinalProject/results/Chelonioideasuperfamily.png){width="50%"}
+
+![Label tips for Chelonioidea Superfamily](/c/Users/dms11/Desktop/FinalProject/results/labeltips.png){width="50%"}
+
+![Chelonia mydas zoom in](/c/Users/dms11/Desktop/FinalProject/results/Cheloniamydas.png){width="50%"}
+
+
+
+
+**2)** Using the same file to build a Phylogeny in Figtree.
+
+![Figtree phylogeny tree](/c/Users/dms11/Desktop/FinalProject/results/Figtree.png)
+
+
+
+**[B]** It was also possible to filter out data from RNA sequence of BRCA1 gen, using the following:
+
+**1)** An fna file downloaded from **NCBI** databank
+
+**2)** Regular expressions on Sublime to filter out unwanted text and denote the transcript section for the BRCA1 gene, which performs a DNA repair associated function in turtles.  
+
+![Regular expression applied](/c/Users/dms11/Desktop/FinalProject/results/Regularexpression.png)
+
+***Author***
+Danny Sierra
+
+Biomedicine Master's student at Pontificia Universidad Católica del Ecuador 
+
+Contact : dannymsmh@gmail.com
+
+Daniel Chavez PhD - Lecturer and Tutor
+
+
+
+**Resources origin** 
+
 
 [A]https://tree.opentreeoflife.org/opentree/opentree14.9@ott243396/Chelonioidea
 
 [B]https://www.ncbi.nlm.nih.gov/datasets/gene/id/5830eae2c989e33dba057bc5f7c95713/
 
+
+**Media links** 
+
+
+[1] https://th.bing.com/th/id/R.90f240fd0f6ea009f80950950ead5b2e?rik=7qXIVlc1MiFbjA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2f1%2ff%2f390894.jpg&ehk=Pe6KLXtfj1P%2bjWQVxXgckqccKh6SC18iGKWgvEBT6s8%3d&risl=&pid=ImgRaw&r=0
+[2] https://www.fisheries.noaa.gov/s3//2023-06/DPS-Webmap.jpg
+
+[3] https://www.youtube.com/watch?v=spxtEt6RaS4
 

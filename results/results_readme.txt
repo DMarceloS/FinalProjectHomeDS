@@ -14,3 +14,11 @@ Chelonia_mydas_Figtree.PDF
 
 RNA_sequence_regular_expressions.fna
 
+4) png files to be added to the project README file
+
+Cheloniamydas.png
+Chelonioidesuperfamily.png
+Figtree.png
+labeltips.png
+Regularexpressions.png
+

@@ -30,7 +30,7 @@ Green turtles are found in the coastal areas of more than 140 countries where tr
 
 **1)** Download a data base file from the **Open Tree of Life** website containing the sequences to construct a Phylogeny using R-studio and zooming in the *Chelonia mydas* branch contained in the Chelonioidea Super family. 
 
-![](/c/Users/dms11/Desktop/FinalProject/results/Chelonioideasuperfamily.png?raw=true "Chelonioidea Superfamily"){width="50%"}
+![](results/Chelonioideasuperfamily.png?raw=true "Chelonioidea Superfamily"){width="50%"}
 
 
 
